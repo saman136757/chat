@@ -4,13 +4,13 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start":"nodemon server/server.js",
-
+    "start": "nodemon server/server.js",
     "test": "nodemon "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
   }
 }
